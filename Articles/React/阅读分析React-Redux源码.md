@@ -337,10 +337,10 @@ export function wrapMapToPropsFunc(mapToProps, methodName) {
 #### connectAdvanced
 
 ```javascript
-import hoistStatics from 'hoist-non-react-statics'
+import hoistStatics from 'hoist-non-React-statics'
 import invariant from 'invariant'
 import React, { Component, PureComponent } from 'react'
-import { isValidElementType, isContextConsumer } from 'react-is'
+import { isValidElementType, isContextConsumer } from 'React-is'
 
 import { ReactReduxContext } from './Context'
 
@@ -382,7 +382,7 @@ export default function connectAdvanced(
     methodName = 'connectAdvanced',
 
     // REMOVED: if defined, the name of the property passed to the wrapped element indicating the number of
-    // calls to render. useful for watching in react devtools for unnecessary re-renders.
+    // calls to render. useful for watching in React devtools for unnecessary re-renders.
     renderCountProp = undefined,
 
     // determines whether this HOC subscribes to store changes

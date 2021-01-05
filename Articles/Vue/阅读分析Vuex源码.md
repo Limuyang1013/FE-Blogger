@@ -1048,7 +1048,7 @@ commit (_type, _payload, _options) {
     ) {
       console.warn(
         `[vuex] mutation type: ${type}. Silent option has been removed. ` +
-        'Use the filter functionality in the vue-devtools'
+        'Use the filter functionality in the Vue-devtools'
       )
     }
   }
